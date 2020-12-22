@@ -1,0 +1,38 @@
+.sidebar {
+  flex: 0.3;
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar__headerRight {
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: lightgray;
+}
+
+.sidebar__search {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.sidebar__search > .MuiSvgIcon-root {
+  margin: 0 5px;
+}
+
+.sidebar__search > input {
+  border: none;
+  flex: 1;
+  height: 30px;
+  font-size: 16px;
+}
