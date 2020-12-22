@@ -1,0 +1,30 @@
+.sidebarChat {
+  display: flex;
+  padding: 20px;
+  /* justify-content: space-around; */
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  transition: background-color 200ms;
+}
+
+.sidebarChat:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sidebarChat > .MuiAvatar-root {
+  margin-right: 20px;
+}
+
+.sidebarChat__info {
+  flex: 1;
+}
+
+.sidebarChat__info > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.sidebarChat__info > p {
+  font-size: 14px;
+}

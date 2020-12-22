@@ -1,5 +1,7 @@
 .sidebar {
   flex: 0.3;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar__header {
@@ -35,4 +37,14 @@
   flex: 1;
   height: 30px;
   font-size: 16px;
+}
+
+.sidebar__chats {
+  border-right: 1px solid lightgray;
+  flex: 1;
+  overflow: scroll;
+}
+
+.sidebar__chats::-webkit-scrollbar {
+  display: none;
 }
