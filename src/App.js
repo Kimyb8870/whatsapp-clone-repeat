@@ -2,8 +2,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    //BEM
+    <div className="app">
       <h1>Hello React</h1>
+      <div className="app__body">
+        {/* Sidebar */}
+        {/* Chat */}
+      </div>
     </div>
   );
 }
