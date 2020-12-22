@@ -28,3 +28,8 @@
 .sidebarChat__info > p {
   font-size: 14px;
 }
+
+.sidebarChat__newRoom {
+  display: flex;
+  justify-content: center;
+}

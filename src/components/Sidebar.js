@@ -31,7 +31,7 @@ const Sidebar = () => {
         <input placeholder="Search or start new chat" />
       </div>
       <div className="sidebar__chats">
-        <SidebarChat />
+        <SidebarChat addNewChat />
         <SidebarChat />
         <SidebarChat />
         <SidebarChat />
